@@ -23,3 +23,5 @@ npm-debug.log
 
 # Bower
 static/components/
+
+env
