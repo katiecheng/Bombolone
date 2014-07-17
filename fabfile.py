@@ -35,7 +35,7 @@ def install():
     local("bower install")
     # Install python PIL library
     local("pip install -r REQUIREMENTS.txt")
-    local("pip install PIL --allow-external PIL --allow-unverified PIL")
+    # local("pip install PIL --allow-external PIL --allow-unverified PIL")
     # Install Compass (http://compass-style.org/install/)
     local("gem update --system")
     local("gem install compass")
